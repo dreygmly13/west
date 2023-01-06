@@ -68,9 +68,9 @@ $systemInfo = systemInfo();
                 <form id="registration-form" method="POST">
                   <div class="form-group">
                     <label class="col-form-label">
-                      Roll
+                      Student ID
                     </label>
-                    <input type="text" name="roll" class="form-control form-control-border" placeholder="Your roll ..." required>
+                    <input type="text" name="roll" class="form-control form-control-border" placeholder="eg. 2019M0144" required>
 
                   </div>
                   <div class="form-group">
@@ -101,9 +101,9 @@ $systemInfo = systemInfo();
                       Year & Section
                     </label>
                     <div class="input-group">
-                      <input type="number" name="year" class="form-control form-control-border mr-3" placeholder="Year" required>
+                      <input type="number" name="year" class="form-control form-control-border mr-3" placeholder="3 or 4" required>
 
-                      <input type="text" name="section" class="form-control form-control-border ml-3" placeholder="Section" required>
+                      <input type="text" name="section" class="form-control form-control-border ml-3" placeholder="A or B" required>
                     </div>
                   </div>
 
