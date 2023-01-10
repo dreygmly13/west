@@ -11,8 +11,8 @@ $systemInfo = systemInfo();
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?= $systemInfo->system_name ?></title>
   <link rel="icon" href="<?= $SERVER_NAME . $systemInfo->logo ?>" />
+  
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -35,9 +35,9 @@ $systemInfo = systemInfo();
     #header:before {
       content: "";
       position: absolute;
-      height: calc(100%);
+      height: calc(200%);
       width: calc(100%);
-      background: url("<?= $SERVER_NAME . $systemInfo->cover ?>");
+      background: url("aboutus.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -106,64 +106,23 @@ $systemInfo = systemInfo();
       <div class="content" style="padding:9rem 0rem 0rem 0rem;">
         <div id="header" class="shadow mb-4">
           <div class="d-flex justify-content-center h-100 w-100 align-items-center flex-column">
-            <h1 class="w-100 text-center site-title"><?= $systemInfo->system_name ?></h1>
+            <h1 class="w-100 text-center site-title"></h1>
           </div>
         </div>
       </div>
       <!-- /.content -->
 
-      <section class="content ">
-        <div class="container">
-          <div class="col-lg-12 py-5">
-            <div class="card card-outline card-navy shadow rounded-0">
-              <div class="card-body rounded-0">
-                <div class="container-fluid">
-                  <h3 class="text-center">Welcome</h3>
-                  <hr>
-                  <div class="welcome-content">
-                    <?= nl2br($systemInfo->home_content) ?>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <!-- /.content-wrapper -->
-  </div>
-  <!-- ./wrapper -->
+      
 
-</body>
+
+
+
+
+
+
+
 
 <!-- REQUIRED SCRIPTS -->
 
-<!-- jQuery -->
-<script src="./assets/plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap 4 -->
-<script src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- AdminLTE App -->
-<script src="./assets/dist/js/adminlte.min.js"></script>
-<!-- Alert -->
-<script src="./assets/plugins/sweetalert2/sweetalert2.all.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="./assets/dist/js/demo.js"></script>
-<!-- ALGO -->
-<script>
-  if (sessionStorage.getItem("searchInput")) {
-    $("#searchInput").val(sessionStorage.getItem("searchInput"))
-  }
-
-  $("#searchInput").on("input", function(e) {
-    sessionStorage.setItem("searchInput", e.target.value)
-  })
-
-  $(document).on('keypress', function(keyEvent) {
-    if (keyEvent.which == 13 && $("#searchInput").val() !== "") {
-      sessionStorage.setItem("searchInput", $("#searchInput").val())
-      window.location.href = `${window.location.origin}/west/pages/archives?s=${$("#searchInput").val()}`
-    }
-  });
-</script>
 
 </html>

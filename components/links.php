@@ -22,5 +22,10 @@ $links = array(
     "url" => "$SERVER_NAME/pages/archives",
     "config" => "sub_navbar"
   ),
+  array(
+    "title" => "About Us",
+    "url" => "$SERVER_NAME/about-us",
+    "config" => "sub_navbar"
+  ),
 
 );
