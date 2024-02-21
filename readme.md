@@ -1,19 +1,16 @@
-Calculation sng average of panel rating
+Thesis Progress Monitoring and Archive Management System
 
-Improve/remove functions not needed for some roles
 
-Correct the rating sheet for final presentation (ang copy ara kay angie)
 
-Scheduling for other sections (concurrent) e pull ang data from groupings
+The College of Information and Communications Technology seeks to develop globally competent ICT professionals, sufficiently equip with appropriate knowledge, skills and attitude, for them to effectively design, develop, implement and manage information and communications technology resources in multi-disciplinary fields.
 
-Rating should be available from schedule
+Specifically, the college endeavors to:
 
-Improve UI/users
 
-Username instead of email -- student ID and Email Done
+Produce globally and quality graduates who have acquired knowledge and technical skills, have developed personal and social values adaptive to the work environment;
 
-Approved/disapprove on students side (remove)--done
+Inculcate in its students value of independent and life-long learning;
 
-*HINDI DAPAT MAKA SUBMIT DOCUMENTS KUNG WALA PA SANG PANEL NAKA ASSIGN
+Provide valuable services to and share expertise and facilities and various stakeholders on the transfer and promotion of information and communication technology for local, regional and national benefit;
 
-Sample change
+Harness and undertake relevant ICT research directed towards mission-critical, public-service-sensitive, development- management-supportive, and review-generating areas
