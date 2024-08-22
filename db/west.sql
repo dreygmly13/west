@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 22, 2024 at 07:11 AM
+-- Generation Time: Aug 22, 2024 at 07:38 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -93,7 +93,9 @@ CREATE TABLE `courses` (
 
 INSERT INTO `courses` (`course_id`, `name`, `short_name`, `date_created`, `date_updated`) VALUES
 (3, 'BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY', 'BSIT', '2022-11-20 04:54:22', '2022-11-20 04:59:57'),
-(5, 'BACHELOR OF SCIENCE IN TEST', 'BST', '2022-11-20 04:54:22', '2022-11-20 04:59:57');
+(5, 'BACHELOR OF SCIENCE IN INFORMATION SYSTEM', 'BSIS', '2022-11-20 04:54:22', '2024-08-22 05:36:09'),
+(6, 'BACHELOR OF SCIENCE IN ENTERTAINMENT AND MULTIMEDIA COMPUTATION', 'BSEMC', '2024-08-22 05:36:59', '2024-08-22 05:36:59'),
+(7, 'BACHELOR OF SCIENCE IN COMPUTER SCIENCE', 'BSCS', '2024-08-22 05:37:44', '2024-08-22 05:37:44');
 
 -- --------------------------------------------------------
 
@@ -453,7 +455,7 @@ ALTER TABLE `chat`
 -- AUTO_INCREMENT for table `courses`
 --
 ALTER TABLE `courses`
-  MODIFY `course_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `course_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `documents`
